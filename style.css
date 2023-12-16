@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color:pink;
+    overflow: hidden;
+}
+
+nav a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Brush Script MT', cursive;
+}
+
+nav a:hover {
+    background-color: deeppink;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0 9%;
+    background: url(images/hatter1.jpg);
+    height: 99vh;
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    
+}
+
+.home-felirat {
+    font-size: 6rem;
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    margin-bottom: 1rem; 
+}
+
+.reklamszoveg {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.order-now-button {
+    background-color:pink;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+    border-radius: 6px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.order-now-button:hover {
+    background-color:pink;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/hatter1.jpg);
+    background-size: cover;
+    background-position:top;
+}
+
+.tema {
+    text-align: center;
+    padding: 20px;
+}
+
+.tema-felirat {
+    font-size: 6rem;
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    margin-bottom: 5rem; 
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 5px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.item img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    margin-bottom: 5rem; 
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+th {
+    background-color: pink;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #f1f3f5;
+}
+
+td img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+    display: none;
+    transition: transform 0.3s ease;
+}
+
+td:hover img {
+    display: inline-block;
+    transform: rotate(360deg);
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+select, input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: pink;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:deeppink;
+}
+
+a:link {
+    color: #fff;
+  }
+  
+  a:visited {
+    color: #fff;
+  }
+  
+  a:hover {
+    color: deeppink;
+  }
+  
+  a:active {
+    color: pink;
+  }
+
+  .animated-text {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 6rem;
+    font-family: 'Brush Script MT', cursive;
+    margin-bottom: 1rem; 
+}
+
+@keyframes changeColor {
+    0%   {color: pink;}
+    25%  {color: deeppink;}
+    50%  {color: magenta;}
+    100% {color: white;}
+}
